@@ -71,4 +71,27 @@ section {
     height: auto;
   }
 
+  @media (max-width: 768px) {
+    section {
+      height: max-content;
+    }
+
+    section div {
+      height: 100%;
+    }
+
+    img {
+      display: none;
+    }
+    section ul {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    section ul li {
+      width: 80%;
+      padding: 1rem 0;
+    }
+  }
+
   </style>

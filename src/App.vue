@@ -13,7 +13,7 @@ import TheHeader from '@/components/TheHeader.vue'
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0 8rem;
+  padding: 0 12vw;
   overflow-x: hidden;
 }
 </style>

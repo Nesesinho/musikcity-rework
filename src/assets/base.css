@@ -76,3 +76,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+  #app {
+    padding: 0 3vw !important;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Telas bem pequenas */
+@media (max-width: 480px) {
+  #app {
+    padding: 0;
+  }
+  html {
+    font-size: 13px;
+  }
+}
