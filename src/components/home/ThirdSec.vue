@@ -1,5 +1,6 @@
 <template>
   <section class="oferecemos">
+    <img src="/public/imgs/bg-third.jpg" alt="">
     <h1 class="section-title">O Que Podemos Fazer Pela Sua Música</h1>
     <div class="cards-container">
 
@@ -73,6 +74,14 @@
 </template>
 
 <style scoped>
+img {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  width: 100vw;
+  z-index: -10;
+}
+
 .oferecemos {
   padding: 60px 20px;
   text-align: center;
@@ -101,7 +110,7 @@
 }
 
 .card {
-  background: #fff;
+  background: #131313;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   padding: 30px 20px;
@@ -118,13 +127,13 @@
 
 .card h2 {
   font-size: 1.4rem;
-  color: #0a3a61;
+  color: #9fd4ff;
   margin-bottom: 15px;
 }
 
 .description {
   font-size: 1rem;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
@@ -138,7 +147,7 @@
   margin-bottom: 10px;
   position: relative;
   padding-left: 20px;
-  color: #444;
+  color: #ffffff;
 }
 
 .benefits li::before {

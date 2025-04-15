@@ -8,8 +8,8 @@ import ThirdSec from "/src/components/home/ThirdSec.vue";
   <main>
     <img src="/public/imgs/bg-party.png" class="bg" alt="">
     <FirstSec />
-    <SecondSec />
     <ThirdSec />
+    <SecondSec />
   </main>
 </template>
 
