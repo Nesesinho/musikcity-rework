@@ -35,4 +35,20 @@
   img {
     height: 50vh;
   }
+
+  @media (max-width: 768px) {
+    section {
+      flex-direction: column;
+      height: fit-content;
+    }
+
+    div {
+      margin: 2rem 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 </style>

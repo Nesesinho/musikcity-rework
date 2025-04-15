@@ -179,6 +179,7 @@ img {
 
     img {
       top: 0;
+      left: -12vw;
       width: auto !important;
       height: 100% !important;
     }
