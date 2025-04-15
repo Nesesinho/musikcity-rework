@@ -9,6 +9,7 @@
       <li>Consultoria</li>
       <li>Sobre</li>
     </ul>
+    <img class="menu" src="/public/imgs/menu.png" alt="">
   </header>
 </template>
 
@@ -23,6 +24,10 @@
 
   header img {
     height: 2rem;
+  }
+
+  .menu {
+    display: none;
   }
 
   header ul {
@@ -40,5 +45,15 @@
 
   header ul li:hover {
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    header ul {
+      display: none;
+    }
+
+    .menu {
+      display: block;
+    }
   }
 </style>

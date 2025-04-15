@@ -29,6 +29,12 @@ import ThirdSec from "@/components/home/ThirdSec.vue";
     width: 100vw;
     height: 100vh;
     z-index: -10;
+  }
 
+  @media (max-width: 768px) {
+    .bg {
+      width: auto;
+      height: 100vh;
+    }
   }
 </style>
