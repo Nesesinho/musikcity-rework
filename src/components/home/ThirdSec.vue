@@ -171,4 +171,16 @@ img {
 .btn-saiba-mais:hover {
   background-color: #0669a8;
 }
+
+@media (max-width: 768px) {
+  .oferecemos {
+    position: relative;
+  }
+
+    img {
+      top: 0;
+      width: auto !important;
+      height: 100% !important;
+    }
+}
 </style>
