@@ -40,6 +40,7 @@
       <p>&copy; 2025 MusikCity. Todos os direitos reservados.</p>
     </div>
   </footer>
+  <h1 style="text-align: center;">king</h1>
 </template>
 
 <style scoped>
