@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import FirstSec from "/src/components/home/FirstSec.vue";
-import SecondSec from "/src/components/home/SecondSec.vue";
-import ThirdSec from "/src/components/home/ThirdSec.vue";
+import FirstSec from "@/components/home/FirstSec.vue";
+import SecondSec from "@/components/home/SecondSec.vue";
+import ThirdSec from "@/components/home/ThirdSec.vue";
 </script>
 
 <template>

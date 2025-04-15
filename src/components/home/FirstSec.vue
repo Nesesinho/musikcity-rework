@@ -57,6 +57,7 @@ section {
     color: white;
     text-align: center;
     width: fit-content;
+    border-radius: 5px;
   }
 
   section ul li:hover {
